@@ -1,16 +1,29 @@
-import { Header, Footer } from "@/components/layout";
-import { Hero } from "@/components/sections";
+import { Footer } from "@/components/footer/Footer";
+import {
+  HeroSection,
+  IntroTextSection,
+  AboutMeSection,
+  TrustMeSection,
+  WhoIWorkWithSection,
+  HelpSupportSection,
+  CallToActionWaveSection,
+} from "./components";
 
 const Home = () => {
-    return (
-        <div className="flex min-h-screen flex-col bg-zinc-50 font-sans dark:bg-black">
-            <Header />
-            <main className="flex w-full max-w-3xl flex-1 flex-col items-center mx-auto sm:items-start">
-                <Hero />
-            </main>
-            <Footer />
-        </div>
-    );
+  return (
+    <div className="min-h-screen bg-[var(--color-off-white)] font-sans text-[var(--color-text)]">
+      <HeroSection />
+      <main>
+        <IntroTextSection />
+        <AboutMeSection />
+        <TrustMeSection />
+        <WhoIWorkWithSection />
+        <HelpSupportSection />
+        <CallToActionWaveSection />
+      </main>
+      <Footer />
+    </div>
+  );
 };
 
 export default Home;
