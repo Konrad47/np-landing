@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Natalia Prusek — W drodze do siebie",
+    "description": "Psychoterapia i wsparcie psychologiczne — strona główna."
+  },
+  "nav": {
+    "aria": "Główna nawigacja",
+    "home": "Strona główna",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "language": {
+    "plLabel": "PL",
+    "enLabel": "EN",
+    "groupAria": "Wybór języka",
+    "plLinkAria": "Polski",
+    "enLinkAria": "English"
+  },
+  "hero": {
+    "eyebrow": "Psychologia",
+    "title": "W drodze do siebie",
+    "subtitle": "Psychoterapia i Wsparcie Psychologiczne"
+  },
+  "intro": {
+    "quote": "Tu wpisz cytat lub misję — miejsce na główne przesłanie. Tekst może być dłuższy i wieloliniowy.",
+    "name": "Natalia Prusek",
+    "role": "Psycholożka, Psychoterapeutka CBT",
+    "cta": "Zarezerwuj wizytę"
+  },
+  "about": {
+    "title": "O mnie",
+    "imageLabel": "Portret Natalii Prusek",
+    "paragraphs": [
+      "Tu wpisz krótki wstęp o sobie — wykształcenie, doświadczenie, podejście do terapii. Możesz dodać kilka akapitów.",
+      "Kolejny akapit z informacjami o specjalizacjach, metodach pracy lub wartościach, które przyświecają Twojej praktyce."
+    ]
+  },
+  "trust": {
+    "title": "Czemu zaufać właśnie mnie?",
+    "items": [
+      "Pierwszy punkt — np. wieloletnie doświadczenie w pracy z pacjentami.",
+      "Drugi punkt — np. podejście oparte na dowodach naukowych (CBT).",
+      "Trzeci punkt — np. bezpieczna, pełna szacunku relacja terapeutyczna.",
+      "Czwarty punkt — np. indywidualne podejście do każdego klienta."
+    ]
+  },
+  "who": {
+    "title": "Z kim pracuję?",
+    "imageLabel": "Obraz — spokojna scena (np. woda, natura)",
+    "items": [
+      "Dorośli doświadczający lęku, depresji lub kryzysów życiowych.",
+      "Osoby szukające wsparcia w budowaniu relacji i asertywności.",
+      "Klienci pracujący nad stresem i wypaleniem zawodowym.",
+      "Inne grupy — dostosuj listę do swoich specjalizacji."
+    ]
+  },
+  "help": {
+    "title": "W czym mogę Cię wesprzeć?",
+    "disclaimer": "Tu możesz dodać krótką informację dodatkową lub disclaimer.",
+    "features": [
+      { "title": "Psychoterapia i Wsparcie", "href": "#psychoterapia" },
+      { "title": "Blog", "href": "#blog" },
+      { "title": "e-booki i szkolenia", "href": "#ebooki" }
+    ]
+  },
+  "cta": {
+    "title": "Dobrze, że jesteś!"
+  },
+  "featureCard": {
+    "learnMore": "Dowiedz się więcej"
+  },
+  "footer": {
+    "columns": [
+      {
+        "heading": "Kontakt",
+        "items": [
+          "E-mail: kontakt@example.com",
+          "Tel: +48 123 456 789",
+          "Strona: www.example.com"
+        ]
+      },
+      {
+        "heading": "Gabinet Psychoterapii",
+        "items": ["Adres gabinetu", "Miasto, kod pocztowy"]
+      },
+      {
+        "heading": "O mnie",
+        "items": ["Link do strony O mnie", "Polityka prywatności"]
+      }
+    ]
+  }
+}

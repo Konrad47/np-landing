@@ -1,20 +1,18 @@
 import { Section } from "../../../components/section/Section";
 import { BulletList } from "../../../components/list/BulletList";
+import type { Messages } from "@/lib/i18n/messages";
 
-const trustPoints = [
-  "Pierwszy punkt — np. wieloletnie doświadczenie w pracy z pacjentami.",
-  "Drugi punkt — np. podejście oparte na dowodach naukowych (CBT).",
-  "Trzeci punkt — np. bezpieczna, pełna szacunku relacja terapeutyczna.",
-  "Czwarty punkt — np. indywidualne podejście do każdego klienta.",
-];
+type TrustMeSectionProps = {
+  trust: Messages["trust"];
+};
 
-export const TrustMeSection = () => {
+export const TrustMeSection = ({ trust }: TrustMeSectionProps) => {
   return (
     <Section background="off-white" spacing="normal">
       <h2 className="font-serif text-3xl font-medium text-[var(--color-text)] md:text-4xl">
-        Czemu zaufać właśnie mnie?
+        {trust.title}
       </h2>
-      <BulletList items={trustPoints} className="mt-8" />
+      <BulletList items={trust.items} className="mt-8" />
     </Section>
   );
 };

@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Natalia Prusek — On the path to yourself",
+    "description": "Psychotherapy and psychological support — home page."
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "home": "Home",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "language": {
+    "plLabel": "PL",
+    "enLabel": "EN",
+    "groupAria": "Language",
+    "plLinkAria": "Polish",
+    "enLinkAria": "English"
+  },
+  "hero": {
+    "eyebrow": "Psychology",
+    "title": "On the path to yourself",
+    "subtitle": "Psychotherapy and psychological support"
+  },
+  "intro": {
+    "quote": "Add a quote or mission statement here — space for your main message. The text can be longer and span multiple lines.",
+    "name": "Natalia Prusek",
+    "role": "Psychologist, CBT psychotherapist",
+    "cta": "Book a session"
+  },
+  "about": {
+    "title": "About me",
+    "imageLabel": "Portrait of Natalia Prusek",
+    "paragraphs": [
+      "Write a short introduction about yourself — education, experience, and your therapeutic approach. You can add several paragraphs.",
+      "Another paragraph about your specializations, methods, or the values that guide your practice."
+    ]
+  },
+  "trust": {
+    "title": "Why work with me?",
+    "items": [
+      "First point — e.g. years of experience supporting clients.",
+      "Second point — e.g. an approach grounded in scientific evidence (CBT).",
+      "Third point — e.g. a safe, respectful therapeutic relationship.",
+      "Fourth point — e.g. an individualized approach for every client."
+    ]
+  },
+  "who": {
+    "title": "Who I work with",
+    "imageLabel": "Image — a calm scene (e.g. water, nature)",
+    "items": [
+      "Adults experiencing anxiety, depression, or life crises.",
+      "People seeking support with relationships and assertiveness.",
+      "Clients working on stress and professional burnout.",
+      "Other groups — tailor this list to your specializations."
+    ]
+  },
+  "help": {
+    "title": "How I can support you",
+    "disclaimer": "You can add a short note or disclaimer here.",
+    "features": [
+      { "title": "Psychotherapy and support", "href": "#psychoterapia" },
+      { "title": "Blog", "href": "#blog" },
+      { "title": "E-books and training", "href": "#ebooki" }
+    ]
+  },
+  "cta": {
+    "title": "I’m glad you’re here"
+  },
+  "featureCard": {
+    "learnMore": "Learn more"
+  },
+  "footer": {
+    "columns": [
+      {
+        "heading": "Contact",
+        "items": [
+          "Email: kontakt@example.com",
+          "Tel: +48 123 456 789",
+          "Website: www.example.com"
+        ]
+      },
+      {
+        "heading": "Psychotherapy practice",
+        "items": ["Practice address", "City, postal code"]
+      },
+      {
+        "heading": "About me",
+        "items": ["About page link", "Privacy policy"]
+      }
+    ]
+  }
+}

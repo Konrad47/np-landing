@@ -4,6 +4,7 @@ const SECTION_MAX_WIDTH = "72rem";
 
 type SectionProps = {
   children: ReactNode;
+  id?: string;
   background?: "off-white" | "beige-light" | "wave";
   spacing?: "normal" | "large";
   className?: string;
@@ -22,12 +23,14 @@ const spacingMap = {
 
 export const Section = ({
   children,
+  id,
   background = "off-white",
   spacing = "normal",
   className = "",
 }: SectionProps) => {
   return (
     <section
+      id={id}
       className={`${bgMap[background]} ${spacingMap[spacing]} ${className}`}
     >
       <div

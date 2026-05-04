@@ -1,24 +1,28 @@
 import { Section } from "../../../components/section/Section";
 import { Button } from "../../../components/button/Button";
+import type { Messages } from "@/lib/i18n/messages";
 
-export const IntroTextSection = () => {
+type IntroTextSectionProps = {
+  intro: Messages["intro"];
+};
+
+export const IntroTextSection = ({ intro }: IntroTextSectionProps) => {
   return (
-    <Section background="off-white" spacing="large">
+    <Section id="booking" background="off-white" spacing="large">
       <div className="mx-auto max-w-3xl text-center">
         <blockquote className="font-sans text-lg leading-relaxed text-[var(--color-text)] md:text-xl md:leading-loose">
-          &ldquo;Tu wpisz cytat lub misję — miejsce na główne przesłanie. Tekst
-          może być dłuższy i wieloliniowy.&rdquo;
+          &ldquo;{intro.quote}&rdquo;
         </blockquote>
         <footer className="mt-6">
           <p className="font-sans font-medium text-[var(--color-text)]">
-            Natalia Prusek
+            {intro.name}
           </p>
           <p className="mt-1 font-sans text-sm text-[var(--color-text-muted)]">
-            Psycholożka, Psychoterapeutka CBT
+            {intro.role}
           </p>
         </footer>
         <div className="mt-10">
-          <Button href="#rezerwacja">Zarezerwuj wizytę</Button>
+          <Button href="#booking">{intro.cta}</Button>
         </div>
       </div>
     </Section>

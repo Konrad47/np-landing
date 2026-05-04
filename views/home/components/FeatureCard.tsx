@@ -7,15 +7,14 @@ type FeatureCardProps = {
   /** Optional image override; if not provided, uses ImagePlaceholder */
   image?: ReactNode;
   href?: string;
-  /** Override button label */
-  buttonLabel?: string;
+  buttonLabel: string;
 };
 
 export const FeatureCard = ({
   title,
   image,
   href = "#",
-  buttonLabel = "Dowiedz się więcej",
+  buttonLabel,
 }: FeatureCardProps) => {
   return (
     <article className="flex flex-col rounded-lg bg-[var(--color-off-white)] shadow-sm">

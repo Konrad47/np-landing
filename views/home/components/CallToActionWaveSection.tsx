@@ -1,4 +1,12 @@
-export const CallToActionWaveSection = () => {
+import type { Messages } from "@/lib/i18n/messages";
+
+type CallToActionWaveSectionProps = {
+  cta: Messages["cta"];
+};
+
+export const CallToActionWaveSection = ({
+  cta,
+}: CallToActionWaveSectionProps) => {
   return (
     <section className="relative overflow-hidden bg-[var(--color-off-white)] pt-16 pb-32 md:pt-20 md:pb-40">
       <div className="absolute inset-x-0 bottom-0 h-[60%] min-h-[280px] w-full">
@@ -16,7 +24,7 @@ export const CallToActionWaveSection = () => {
       </div>
       <div className="relative z-10 flex justify-center">
         <h2 className="font-serif text-3xl font-medium text-[var(--color-off-white)] drop-shadow-sm md:text-4xl lg:text-5xl">
-          Dobrze, że jesteś!
+          {cta.title}
         </h2>
       </div>
     </section>
